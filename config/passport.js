@@ -1,4 +1,4 @@
-GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_ID=your-google-client-id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
 FACEBOOK_APP_ID=your_facebook_app_id
 FACEBOOK_APP_SECRET=your_facebook_app_secret 

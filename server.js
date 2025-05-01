@@ -33,6 +33,9 @@ app.use('/api/users', require('./routes/users'));
 app.use('/api/ads', require('./routes/ads'));
 app.use('/api/admin', require('./routes/admin'));
 app.use('/api/search', require('./routes/search'));
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
 
 // Error handling middleware
 app.use((err, req, res, next) => {
