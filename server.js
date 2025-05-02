@@ -23,7 +23,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // Database connection
-mongoose.connect(process.env.mongodb+srv://deepanshuv487:InfF2IWXnUhlMwvH@cluster0.vdey6xk.mongodb.net/ad_platform || 'mongodb://localhost:27017/ad_platform')
+mongoose.connect(mongodb+srv://deepanshuv487:InfF2IWXnUhlMwvH@cluster0.vdey6xk.mongodb.net/ad_platform')
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.error('MongoDB connection error:', err));
 
